@@ -213,11 +213,11 @@
         </a>
         
         <a  class="学习 Hexo "
-           href="/2020/01/11/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86/"
+           href="/2020/01/12/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86/"
            data-tag="学习"
            data-author="" >
             <span class="post-title" title="Hexo命令集">Hexo命令集</span>
-            <span class="post-date" title="2020-01-11 23:06:00">2020/01/11</span>
+            <span class="post-date" title="2020-01-12 02:11:26">2020/01/12</span>
         </a>
         
         <a  class=""
@@ -274,7 +274,7 @@
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2020-01-12 01:51:21'>2020-01-11 23:06</time>
+        创建时间:<time class="date" title='更新时间: 2020-01-12 02:12:53'>2020-01-12 02:11</time>
         
     </div>
     <div class="article-meta">
@@ -325,45 +325,31 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2>hexo</h2>
-
+        <hr>
+<h2>hexo</h2>
 <pre><code>npm install hexo -g #安装  
 npm update hexo -g #升级  
 hexo init #初始化
 </code></pre>
 
 <h2>简写</h2>
-
 <p><code>hexo n "我的博客"</code> == <code>hexo new "我的博客"</code> #新建文章<br><code>hexo p</code> == <code>hexo publish</code><br><code>hexo g</code> == <code>hexo generate</code>#生成<br><code>hexo s</code> == <code>hexo server</code> #启动服务预览<br><code>hexo d</code> == <code>hexo deploy</code>#部署</p>
-
 <h2>服务器</h2>
-
 <p><code>hexo server</code> #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br><code>hexo server -s</code> #静态模式<br><code>hexo server -p 5000</code> #更改端口<br><code>hexo server -i 192.168.1.1</code> #自定义 IP</p>
-
 <p><code>hexo clean</code> #清除缓存 网页正常情况下可以忽略此条命令<br><code>hexo g</code> #生成静态网页<br><code>hexo d</code> #开始部署</p>
-
 <h3>监视文件变动</h3>
-
 <p><code>hexo generate</code> #使用 Hexo 生成静态文件快速而且简单<br><code>hexo generate --watch</code> #监视文件变动</p>
-
 <h3>完成后部署</h3>
-
 <blockquote>
   <p>两个命令的作用是相同的<br><code>hexo generate --deploy</code><br><code>hexo deploy --generate</code></p>
 </blockquote>
 
 <p><code>hexo deploy -g</code><br><code>hexo server -g</code></p>
-
 <h2>草稿</h2>
-
 <p><code>hexo publish [layout] &lt;title&gt;</code></p>
-
 <h2>模版</h2>
-
 <p><code>hexo new "postName"</code> #新建文章<br><code>hexo new page "pageName"</code> #新建页面<br><code>hexo generate</code> #生成静态页面至public目录<br><code>hexo server</code> #开启预览访问端口（默认端口4000，'ctrl + c'关闭server）<br><code>hexo deploy</code> #将.deploy目录部署到GitHub</p>
-
 <p><code>hexo new [layout] &lt;title&gt;</code><br><code>hexo new photo "My Gallery"</code><br><code>hexo new "Hello World" --lang tw</code></p>
-
 <table>
 <thead><tr>
 <th>变量</th>
@@ -395,9 +381,7 @@ description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞�
 </code></pre>
 
 <h2>模版（Scaffold）</h2>
-
 <p><code>hexo new photo "My Gallery"</code></p>
-
 <table>
 <thead><tr>
 <th>变量</th>
@@ -419,14 +403,11 @@ description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞�
 </tbody>
 </table>
 <h2>设置文章摘要</h2>
-
 <pre><code>以上是文章摘要 &lt;!--more--&gt; 以下是余下全文 
 </code></pre>
 
 <h2>写作</h2>
-
 <p><code>hexo new page &lt;title&gt;</code><br><code>hexo new post &lt;title&gt;</code></p>
-
 <table>
 <thead><tr>
 <th>变量</th>
@@ -460,24 +441,16 @@ description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞�
 </tbody>
 </table>
 <h3>推送到服务器上</h3>
-
 <p><code>hexo n</code> #写文章<br><code>hexo g</code> #生成<br><code>hexo d</code> #部署 #可与<code>hexo g</code>合并为 <code>hexo d -g</code></p>
-
 <h2>报错</h2>
-
 <h3>1.找不到git部署</h3>
-
 <pre><code>ERROR Deployer not found: git
 </code></pre>
 
 <p><strong>解决方法</strong></p>
-
 <p><code>npm install hexo-deployer-git --save</code></p>
-
 <h3>3.部署类型设置git</h3>
-
 <p>hexo 3.0 部署类型不再是<code>github</code>，<code>_config.yml</code> 中修改</p>
-
 <pre><code>bash</code><code># Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
@@ -487,10 +460,10 @@ deploy:
 </code></pre>
 
 <h3>4. xcodebuild</h3>
-
 <p>xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance</p>
-
 <p><code>npm install bcrypt</code></p>
+
+
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 wangweinan1121@163.com </span>
     </div>
@@ -506,9 +479,9 @@ deploy:
     <p><span class="copy-title">文章标题:</span>Hexo命令集</p>
     <p><span class="copy-title">文章字数:</span><span class="post-count">597</span></p>
     <p><span class="copy-title">本文作者:</span><a  title="Joker">Joker</a></p>
-    <p><span class="copy-title">发布时间:</span>2020-01-11, 23:06:00</p>
-    <p><span class="copy-title">最后更新:</span>2020-01-12, 01:51:21</p>
-    <span class="copy-title">原始链接:</span><a class="post-url" href="/2020/01/11/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86/" title="Hexo命令集">http://yoursite.com/2020/01/11/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86/</a>
+    <p><span class="copy-title">发布时间:</span>2020-01-12, 02:11:26</p>
+    <p><span class="copy-title">最后更新:</span>2020-01-12, 02:12:53</p>
+    <span class="copy-title">原始链接:</span><a class="post-url" href="/2020/01/12/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86/" title="Hexo命令集">http://yoursite.com/2020/01/12/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86/</a>
     <p>
         <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
     </p>
