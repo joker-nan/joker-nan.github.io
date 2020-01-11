@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Joker&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-01-11T15:06:16.322Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Joker</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo命令集</title>
+    <link href="http://yoursite.com/2020/01/11/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86/"/>
+    <id>http://yoursite.com/2020/01/11/Hexo%E5%91%BD%E4%BB%A4%E9%9B%86/</id>
+    <published>2020-01-11T15:06:16.000Z</published>
+    <updated>2020-01-11T15:06:16.322Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2020/01/11/hello-world/"/>
+    <id>http://yoursite.com/2020/01/11/hello-world/</id>
+    <published>2020-01-11T00:56:30.288Z</published>
+    <updated>2020-01-10T12:37:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo标签页无法显示解决</title>
+    <link href="http://yoursite.com/2020/01/10/Hexo%E6%A0%87%E7%AD%BE%E9%A1%B5%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E8%A7%A3%E5%86%B3/"/>
+    <id>http://yoursite.com/2020/01/10/Hexo%E6%A0%87%E7%AD%BE%E9%A1%B5%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E8%A7%A3%E5%86%B3/</id>
+    <published>2020-01-10T08:42:11.000Z</published>
+    <updated>2020-01-11T04:52:08.628Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="生成tags"><a href="#生成tags" class="headerlink" title="生成tags"></a>生成tags</h2><p>在hexo根目录的source文件夹下新建一个tags文件夹，然后在tags文件夹里面新建一个index.md文件。可以直接使用快捷命令：</p><pre><code class="bash">$ hexo new page &quot;tags&quot;</code></pre><h2 id="编辑index-md"><a href="#编辑index-md" class="headerlink" title="编辑index.md"></a>编辑index.md</h2><p>编辑index.md文件【文件位置：source/tags/index.md】</p><pre><code class="text">---title: &quot;tags&quot;type: tagslayout: &quot;tags&quot;---</code></pre><p><strong>注意事项</strong></p><blockquote><p>这里面最重要的就是 layout 选项，后面的参数对应的是主题文件夹下 layout文件夹下的文件。我用的的主题是用ejs写的文件名的是tags，那么对应的就是那么就要是layout: “tags”，如果不指向，那么就会出现空白的现象！</p></blockquote><h2 id="编辑主题配置"><a href="#编辑主题配置" class="headerlink" title="编辑主题配置"></a>编辑主题配置</h2><p>编辑主题配置文件【文件位置：themes\使用主题\ _config.yml】</p><pre><code class="text">nav:  home: /  about: /about  tags: /tags</code></pre><h2 id="编辑Hexo配置"><a href="#编辑Hexo配置" class="headerlink" title="编辑Hexo配置"></a>编辑Hexo配置</h2><p>编辑Hexo配置文件Directory选项。</p><p>检查一下名称是否对应【文件位置：根目录下 _config.yml】</p><pre><code class="text"># Directorytag_dir: tags</code></pre><p>主要就是看一下主题文件里有没有标签页或者分类页的布局文件，一般来说都是有的，只是命名和存放的位置可能不同，所以要根据实际情况来修改。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;生成tags&quot;&gt;&lt;a href=&quot;#生成tags&quot; class=&quot;headerlink&quot; title=&quot;生成tags&quot;&gt;&lt;/a&gt;生成tags&lt;/h2&gt;&lt;p&gt;在hexo根目录的source文件夹下新建一个tags文件夹，然后在tags文件夹里面新建一个index.m
+      
+    
+    </summary>
+    
+    
+      <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="Hexo" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/Hexo/"/>
+    
+    
+      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo初体验</title>
+    <link href="http://yoursite.com/2020/01/09/Hexo%E5%88%9D%E4%BD%93%E9%AA%8C/"/>
+    <id>http://yoursite.com/2020/01/09/Hexo%E5%88%9D%E4%BD%93%E9%AA%8C/</id>
+    <published>2020-01-09T05:42:46.000Z</published>
+    <updated>2020-01-11T01:40:21.797Z</updated>
+    
+    <content type="html"><![CDATA[<p>本着学习的目的于2020年初开设这个博客。<br>基本我会把这个博客当成网络收藏夹和备忘录，收藏一些自己认为日后需要在看看的资料。再者就是记录一些学习经历，分享心得。<br>综合自己查过的资料和使用，最终在<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>上安家。作为一个新手，使用Hexo的确不是那么的友好，但正是这种命令行，撸代码一般的写文章可以让我熟悉我需要学习的东西。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;本着学习的目的于2020年初开设这个博客。&lt;br&gt;基本我会把这个博客当成网络收藏夹和备忘录，收藏一些自己认为日后需要在看看的资料。再者就是记录一些学习经历，分享心得。&lt;br&gt;综合自己查过的资料和使用，最终在&lt;a href=&quot;https://hexo.io/&quot; target=
+      
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>
