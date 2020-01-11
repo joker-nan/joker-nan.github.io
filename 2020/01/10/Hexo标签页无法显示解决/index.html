@@ -217,7 +217,7 @@
            data-tag="学习"
            data-author="" >
             <span class="post-title" title="Hexo命令集">Hexo命令集</span>
-            <span class="post-date" title="2020-01-12 02:11:26">2020/01/12</span>
+            <span class="post-date" title="2020-01-12 02:11:00">2020/01/12</span>
         </a>
         
         <a  class=""
@@ -276,12 +276,12 @@
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2020-01-12 02:18:10'>2020-01-10 16:42</time>
+        创建时间:<time class="date" title='更新时间: 2020-01-12 02:29:37'>2020-01-10 16:42</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:292</span>
+        <span>字数:291</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -328,27 +328,23 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h2 id="生成tags"><a href="#生成tags" class="headerlink" title="生成tags"></a>生成tags</h2><p>在hexo根目录的source文件夹下新建一个tags文件夹，然后在tags文件夹里面新建一个index.md文件。可以直接使用快捷命令：</p>
-<pre><code class="bash">$ hexo new page &quot;tags&quot;</code></pre>
-<h2 id="编辑index-md"><a href="#编辑index-md" class="headerlink" title="编辑index.md"></a>编辑index.md</h2><p>编辑index.md文件【文件位置：source/tags/index.md】</p>
-<pre><code class="text">  ---
-  title: &quot;tags&quot;
-  type: tags
-  layout: &quot;tags&quot;
-  ---</code></pre>
-<p><strong>注意事项</strong></p>
+<pre><code>hexo new page &quot;tags&quot;</code></pre><h2 id="编辑index-md"><a href="#编辑index-md" class="headerlink" title="编辑index.md"></a>编辑index.md</h2><p>编辑index.md文件【文件位置：source/tags/index.md】</p>
+<pre><code>---
+title: &quot;tags&quot;
+type: tags
+layout: &quot;tags&quot;
+---</code></pre><p><strong>注意事项</strong></p>
 <blockquote>
 <p>这里面最重要的就是 layout 选项，后面的参数对应的是主题文件夹下 layout文件夹下的文件。我用的的主题是用ejs写的文件名的是tags，那么对应的就是那么就要是layout: “tags”，如果不指向，那么就会出现空白的现象！</p>
 </blockquote>
 <h2 id="编辑主题配置"><a href="#编辑主题配置" class="headerlink" title="编辑主题配置"></a>编辑主题配置</h2><p>编辑主题配置文件【文件位置：themes\使用主题\ _config.yml】</p>
-<pre><code class="text"> nav:
-   home: /
-   about: /about
-   tags: /tags</code></pre>
-<h2 id="编辑Hexo配置"><a href="#编辑Hexo配置" class="headerlink" title="编辑Hexo配置"></a>编辑Hexo配置</h2><p>编辑Hexo配置文件Directory选项。</p>
+<pre><code>nav:
+home: /
+about: /about
+tags: /tags</code></pre><h2 id="编辑Hexo配置"><a href="#编辑Hexo配置" class="headerlink" title="编辑Hexo配置"></a>编辑Hexo配置</h2><p>编辑Hexo配置文件Directory选项。</p>
 <p>检查一下名称是否对应【文件位置：根目录下 _config.yml】</p>
-<pre><code class="text"> # Directory
- tag_dir: tags</code></pre>
-<p>主要就是看一下主题文件里有没有标签页或者分类页的布局文件，一般来说都是有的，只是命名和存放的位置可能不同，所以要根据实际情况来修改。</p>
+<pre><code># Directory
+tag_dir: tags</code></pre><p>主要就是看一下主题文件里有没有标签页或者分类页的布局文件，一般来说都是有的，只是命名和存放的位置可能不同，所以要根据实际情况来修改。</p>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 wangweinan1121@163.com </span>
@@ -363,10 +359,10 @@
 
 <div class="article_copyright">
     <p><span class="copy-title">文章标题:</span>Hexo标签页无法显示解决</p>
-    <p><span class="copy-title">文章字数:</span><span class="post-count">292</span></p>
+    <p><span class="copy-title">文章字数:</span><span class="post-count">291</span></p>
     <p><span class="copy-title">本文作者:</span><a  title="Joker">Joker</a></p>
     <p><span class="copy-title">发布时间:</span>2020-01-10, 16:42:00</p>
-    <p><span class="copy-title">最后更新:</span>2020-01-12, 02:18:10</p>
+    <p><span class="copy-title">最后更新:</span>2020-01-12, 02:29:37</p>
     <span class="copy-title">原始链接:</span><a class="post-url" href="/2020/01/10/Hexo%E6%A0%87%E7%AD%BE%E9%A1%B5%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E8%A7%A3%E5%86%B3/" title="Hexo标签页无法显示解决">http://yoursite.com/2020/01/10/Hexo%E6%A0%87%E7%AD%BE%E9%A1%B5%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E8%A7%A3%E5%86%B3/</a>
     <p>
         <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
