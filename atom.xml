@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-11T18:34:06.583Z</updated>
+  <updated>2020-01-23T06:31:23.356Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>pve黑群晖安装</title>
+    <link href="http://yoursite.com/2020/01/23/pve%E9%BB%91%E7%BE%A4%E6%99%96%E5%AE%89%E8%A3%85/"/>
+    <id>http://yoursite.com/2020/01/23/pve%E9%BB%91%E7%BE%A4%E6%99%96%E5%AE%89%E8%A3%85/</id>
+    <published>2020-01-23T06:31:23.000Z</published>
+    <updated>2020-01-23T06:31:23.356Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hexo命令集</title>
@@ -50,7 +65,7 @@ hexo in
     <title>Hello World</title>
     <link href="http://yoursite.com/2020/01/11/hello-world/"/>
     <id>http://yoursite.com/2020/01/11/hello-world/</id>
-    <published>2020-01-11T00:56:30.288Z</published>
+    <published>2020-01-11T11:13:05.690Z</published>
     <updated>2020-01-10T12:37:42.000Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
@@ -101,7 +116,7 @@ hexo in
     <link href="http://yoursite.com/2020/01/09/Hexo%E5%88%9D%E4%BD%93%E9%AA%8C/"/>
     <id>http://yoursite.com/2020/01/09/Hexo%E5%88%9D%E4%BD%93%E9%AA%8C/</id>
     <published>2020-01-09T05:42:46.000Z</published>
-    <updated>2020-01-11T01:40:21.797Z</updated>
+    <updated>2020-01-11T01:40:21.000Z</updated>
     
     <content type="html"><![CDATA[<p>本着学习的目的于2020年初开设这个博客。<br>基本我会把这个博客当成网络收藏夹和备忘录，收藏一些自己认为日后需要在看看的资料。再者就是记录一些学习经历，分享心得。<br>综合自己查过的资料和使用，最终在<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>上安家。作为一个新手，使用Hexo的确不是那么的友好，但正是这种命令行，撸代码一般的写文章可以让我熟悉我需要学习的东西。</p>]]></content>
     
